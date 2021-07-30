@@ -3,31 +3,46 @@ body {
 }
 
 h1 {
+    /* Spacing and size */
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 60%;
+    height: 75px;
+
+    /* Box options */
+    background-color: #CB8568;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px black;
+
+    /* Text options */
     color: whitesmoke;
     font-size: 60px;
     text-align: center;
-    margin-top: 40px;
-    width: auto;
-    height: 75px;
-    margin-bottom: 20px;
-    box-shadow: black;
-    background-color: #00aeef;
 }
 
 .para {
-    margin-left: 20%;
-    margin-right: 20%;
+    /* Spacing and size */
     padding-right: 5%;
     padding-left: 5%;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 50%-10px;
+
+    /* Box options */
+    box-shadow: 0px 0px 25px black;
+    border-color: #CB8568;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+
+    /* Text options */
     font-size: 20px;
     font-weight: 200;
     text-align: center;
-    background-color: white;
-    border-width: 10px;
-    border-radius: 10px;
-    border: #00aeef;
     height: 500px;
 }
