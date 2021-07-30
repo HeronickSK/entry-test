@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
     <title>FAPI ~ ENTRY TEST</title>
 </head>
 <body>
@@ -16,9 +15,9 @@
             Zadajte svoje Meno, Priezvisko a následne zvolte tovar a jeho počet kusov. <br>
         </p>
         <form class=form> 
-            Meno: <input class="inp" placeholder="Jožko" type="text" name="Meno" style="width: 30%;"><br> 
-            Priezvisko: <input class="inp" placeholder="Mrkvička" type="text" name="Priezvisko" style="width: 30%;"><br>
-            Produkt: <select class="inp" name="Produkt" style="width: 40%;">
+            Meno: <input class="inp" placeholder="Jožko" type="text" id="firstName" style="width: 30%;"><br> 
+            Priezvisko: <input class="inp" placeholder="Mrkvička" type="text" id="lastName" name="lastName" style="width: 30%;"><br>
+            Produkt: <select class="inp" id="product" style="width: 40%;">
                         <option value="ip6">Iphone 6</option>
                         <option value="ip6s">Iphone 6s</option>
                         <option value="ip7">Iphone 7</option>
@@ -30,15 +29,15 @@
                         <option value="ip11">Iphone 11</option>
                         <option value="ip11max">Iphone 11 Max</option>
                     </select>
-                    <select class="inp" name="storage" style="width: 30%;">
+                    <select class="inp" id="storage" style="width: 30%;">
                         <option value="64">64GB</option>
                         <option value="128">128GB</option>
                         <option value="256">256GB</option>
                     </select>    
                 <br>
-            Počet kusov: <input class="inp" placeholder="10" type="number" name="Kusy" style="width: 15%;"> <br>
+            Počet kusov: <input class="inp" placeholder="10" type="number" id="quantity" style="width: 15%;"> <br>
         </form>
-        <button type="button" onclick="chaos()">Click me to create chaos :)</button>
+        <button type="button" onclick="write()">Click me to finish :)</button>
     </div>
 </body>
 </html>
