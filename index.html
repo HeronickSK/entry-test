@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="index.css">
-<title>FAPI ~ ENTRY TEST</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>FAPI ~ ENTRY TEST</title>
 </head>
 <body>
+    <script src="index.js"></script>
 
-<h1>I LOVE FAPIIIII</h1>
-<p class="para">This is a paragraph.</p>
-
+    <h1>FAPI iPhone SHOP</h1>
+    <div class=para>
+        <p id='lol'>
+            Prosím vypíšte tento formulár. <br>
+            Zadajte svoje Meno, Priezvisko a následne zvolte tovar a jeho počet kusov. <br>
+        </p>
+        <form class=form> 
+            Meno: <input class="inp" placeholder="Jožko" type="text" name="Meno" style="width: 30%;"><br> 
+            Priezvisko: <input class="inp" placeholder="Mrkvička" type="text" name="Priezvisko" style="width: 30%;"><br>
+            Produkt: <select class="inp" name="Produkt" style="width: 40%;">
+                        <option value="ip6">Iphone 6</option>
+                        <option value="ip6s">Iphone 6s</option>
+                        <option value="ip7">Iphone 7</option>
+                        <option value="ip7s">Iphone 7s</option>
+                        <option value="ip8">Iphone 8</option>
+                        <option value="ip8s">Iphone 8s</option>
+                        <option value="ipx">Iphone X</option>
+                        <option value="ipxmax">Iphone X Max</option>
+                        <option value="ip11">Iphone 11</option>
+                        <option value="ip11max">Iphone 11 Max</option>
+                    </select>
+                    <select class="inp" name="storage" style="width: 30%;">
+                        <option value="64">64GB</option>
+                        <option value="128">128GB</option>
+                        <option value="256">256GB</option>
+                    </select>    
+                <br>
+            Počet kusov: <input class="inp" placeholder="10" type="number" name="Kusy" style="width: 15%;"> <br>
+        </form>
+        <button type="button" onclick="chaos()">Click me to create chaos :)</button>
+    </div>
 </body>
 </html>

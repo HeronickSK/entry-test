@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: #AEB8BF;
 }
 
 h1 {
@@ -17,20 +17,43 @@ h1 {
     box-shadow: 0px 0px 25px black;
 
     /* Text options */
-    color: whitesmoke;
+    color: white;
     font-size: 60px;
     text-align: center;
 }
 
+button {
+    /* Spacing and size */
+    margin-top: 20px;
+
+    /* Box options */
+    background-color: #CB8568;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+
+    /* Text options */
+    font-size: 15px;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
 .para {
     /* Spacing and size */
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 20%;
     margin-right: 20%;
     width: 50%-10px;
+    height: 500px;
 
     /* Box options */
     box-shadow: 0px 0px 25px black;
@@ -43,6 +66,28 @@ h1 {
     /* Text options */
     font-size: 20px;
     font-weight: 200;
-    text-align: center;
-    height: 500px;
+    color: #3A4E62;
+}
+
+.inp {
+    /* Spacing and size */
+    padding-left: 10px;
+    padding-right: 10px;
+
+    /* Text options */
+    font-size: 17px;
+
+    /* Box options */
+    border-radius: 10px;
+}
+
+.form {
+    /* Spacing and size */
+    padding-left: 10px;
+    width: 40%;
+
+    /* Box options */
+    border-left: 6px solid #CB8568;
+    border-radius: 10px;
+    background-color: white;
 }
