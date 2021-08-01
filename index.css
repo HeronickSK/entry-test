@@ -22,7 +22,11 @@ h1 {
     text-align: center;
 }
 
-button {
+select:hover {
+    cursor: pointer;
+}
+
+#button {
     /* Spacing and size */
     margin-top: 20px;
 
@@ -36,11 +40,7 @@ button {
     color: white;
 }
 
-button:hover {
-    cursor: pointer;
-}
-
-select:hover {
+#button:hover {
     cursor: pointer;
 }
 

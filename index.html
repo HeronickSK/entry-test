@@ -14,7 +14,7 @@
             Prosím vypíšte tento formulár. <br>
             Zadajte svoje Meno, Priezvisko a následne zvolte tovar a jeho počet kusov. <br>
         </p>
-        <form class=form> 
+        <form class=form action="finish.html"> 
             Meno: <input class="inp" placeholder="Jožko" type="text" id="firstName" style="width: 30%;"><br> 
             Priezvisko: <input class="inp" placeholder="Mrkvička" type="text" id="lastName" name="lastName" style="width: 30%;"><br>
             Produkt: <select class="inp" id="product" style="width: 40%;">
@@ -36,8 +36,8 @@
                     </select>    
                 <br>
             Počet kusov: <input class="inp" placeholder="10" type="number" id="quantity" style="width: 15%;"> <br>
+            <input type="submit" value="Click me to finish :)" id="button">
         </form>
-        <button type="button" onclick="write()">Click me to finish :)</button>
     </div>
 </body>
 </html>
