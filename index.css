@@ -44,6 +44,12 @@ select:hover {
     cursor: pointer;
 }
 
+.form-input {
+    /* Box options */
+    width: 8%;
+    border-radius: 10px;
+}
+
 .para {
     /* Spacing and size */
     padding-right: 2%;
