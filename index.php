@@ -12,7 +12,7 @@
     <div class="para">
         <p>
             Prosím vypíšte tento formulár. <br>
-            Zadajte svoje Meno, Priezvisko a následne zvolte tovar a jeho počet kusov. <br>
+            Zadajte svoje Meno, Priezvisko, Email, Adresu a následne zvolte tovar a jeho počet kusov. <br>
         </p>
         <form id='store-form' class="form" action="finish.php" method="post"> 
             Meno: <input class="inp" id="firstName" placeholder="Jožko" type="text" name="firstName" style="width: 30%;"><br>
