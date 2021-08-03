@@ -8,10 +8,10 @@
     <body>
         <?php
             session_start();
-            $servername = "192.168.1.116:3306";
-            $username = "admin";
-            $password = "8017NQpmTuxguNEDzWP43HSbZevf1XZsDKNcB3kqwK0=";
-            $dbname = "data";
+            $servername = "sql4.webzdarma.cz:3306";
+            $username = "entrytestmou7379";
+            $password = "(d@XhJ^Nb_N4R(zNcon%";
+            $dbname = "entrytestmou7379";
 
             $firstname = $_SESSION["firstname"];
             $lastname = $_SESSION["lastname"];
