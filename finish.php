@@ -91,11 +91,6 @@
         </div>
 
         <script>
-            const select = document.querySelectorAll('.currency');
-            const number = document.getElementById("number");
-            const output = document.getElementById("output");
-
-
             const axios = require('axios');
 
             axios.request({
