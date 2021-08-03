@@ -80,9 +80,9 @@
             
             <!-- Nepodarilo sa mi spraviť currency changer. Určite by sa dalo spraviť pomocou vlastnej databázy, alebo nejakého
             selectu, ale taký bruteforce ste asi nechceli :) (teda určite, kedže v zadaní píšete, že máme použiť informácie z ČNB) -->
-            <input type="number" class="form-input" id="number" placeholder="1000">
+            <input type="number" class="form-input" id="number" placeholder="0">
             <select name="currency" class="inp" onchange=""></select> <br>
-            <input type="text" class="form-input" id="output" placeholder="00000" disabled>
+            <input type="text" class="form-input" id="output" placeholder="0">
             <select name="currency" class="inp" onchange=""></select>
 
             <form action="send.php" method="post">
